@@ -36,7 +36,6 @@ a {
   font-family: "Microsoft YaHei";
 }
 
-/*--------------------*/
 
 .login-box {
   width: inherit;
@@ -58,91 +57,125 @@ a {
 }
 
 .login-info-container {
-    padding: 25px 25px 23px 25px;
-
+  padding: 25px 25px 45px 25px;
+  background-color: white;
+  position: relative;
 }
 
-
-/* .login-box-header {
-  background-color: #f7f7f8;
-  text-align: center;
-  border-bottom: 1px solid rgb(200, 200, 200);
+.login-info-container img {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}
+.login-info-container p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #df9c1f;
+  line-height: 16px;
+  background: rgb(254, 252, 238);
+  padding: 5px 20px 5px 15px;
+  border: 1px solid rgb(247, 217, 149);
+  position: absolute;
+  top: 8px;
+  right: 57px;
 }
 
-.login-box-header p {
+.login-form h3 {
   font-size: 16px;
-  line-height: 41px;
-  margin: 0px;
+  font-weight: 700;
+  line-height: 18px;
+  padding-bottom: 8px;
+  margin-top: 9px;
+  color: rgb(60, 60, 60);
 }
 
-.login-box-info {
-  background-color: #f0f0f0;
-  display: block;
-  color: #6c6c6c;
-  padding-bottom: 50px;
-}
-
-.login-box-info img {
-  width: 140px;
-  height: 42px;
-  margin: 17.5px 105px;
-}
-
-.login-box-info form {
-  background: white;
-  border-bottom: 1px solid #dddddd;
-  padding: 13px 9.333px;
-  font-size: 15px;
+.form-type {
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  color: rgb(108, 108, 108);
+  border: 1px solid rgb(221, 221, 221);
   display: flex;
 }
 
-.label {
-  width: 70px;
-  height: 21px;
+.form-type label {
+  width: 42px;
+  font-size: 22px;
+  color: #ffffff;
+  background: rgb(221, 221, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.login-box-info input {
-  border: transparent;
-  font-size: 15px;
+.form-type input {
+  width: 255px;
   outline: none;
+  border: transparent;
+  padding-left: 10px;
 }
 
 ::placeholder {
-  color: rgb(209, 209, 209);
+  font-size: 14px;
+  color: rgb(153, 153, 153);
 }
 
 .button {
   display: flex;
   justify-content: center;
-  margin-top: 16.8px;
+  margin-top: 20px;
 }
 
-button {
+.button button {
   background: #f40;
-  border: 1px solid #f40;
-  border-radius: 5px;
-  color: #ffa286;
-  font-size: 15px;
-  padding: 12px 150px;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 42px;
+  padding: 0 135px;
+  cursor: pointer;
 }
 
-.link {
+.login-facebook {
+  margin-top: 24px;
+}
+
+.login-facebook button {
+  background: linear-gradient(#4c69ba, #3b55a0);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 11px;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-facebook i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.login-links {
+  margin-top: 25px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 14px;
-  margin: 14px 9.333px 0 9.333px;
 }
 
-.link a {
-  color: #6c6c6c;
-  font-size: 15px;
+.login-links a {
+  color: rgb(108, 108, 108);
+  font-size: 12px;
+  margin-right: 10px;
 }
 
-.link a:hover {
-  text-decoration: underline;
-} */
-
-/*------------------*/
+.login-links a:hover {
+  color: #f40;
+}
 
 footer {
   border-top: 2px solid #f40;
