@@ -21,6 +21,10 @@ body {
   color: #3e3e3e;
 }
 
+.login-header a:hover {
+  text-decoration: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,7 +39,6 @@ a {
   font-size: 25px;
   font-family: "Microsoft YaHei";
 }
-
 
 .login-box {
   width: inherit;
@@ -175,6 +178,7 @@ a {
 
 .login-links a:hover {
   color: #f40;
+  text-decoration: none;
 }
 
 footer {
@@ -234,6 +238,7 @@ footer {
 
 .footer-info-container a:hover {
   color: #f40;
+  text-decoration: none;
 }
 
 .brands {
